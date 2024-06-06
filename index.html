@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<title>forms</title>
+<link rel="icon" type="image/x-icon" href="assets/img/Blue and White Gaming Logo.png" />
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href=" link rel=" stylesheet />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+  <nav class="container-header-menu">
+    <img src="assets/img/Blue and White Gaming Logo.png" alt="avatar" width="45" height="45"
+      style="margin-right: 1100px; border-radius: 500%" />
+    <ul class="ul-header">
+      <li class="li-home"><a href="#massage_us">Massage Us</a></li>
+      <li class="li-home"><a href="#profile">Profile</a></li>
+      <li class="li-home"><a class="active" href="#home">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="home">
+    <header class="h1-header">
+      <h1 style="font-size: 5vw"><span>BURGER</span> MASDAV</h1>
+      <img src="assets/img/burger masdav.jpg" alt="burger" width="500" height="500" />
+    </header>
+    <h1 class="h1-warning" style="font-size: 2vw;">WARNING !!!</h1>
+    <p style="text-align: center;">
+    <h1 style="font-size: 2vw">BURGER IS VERY CHEAP AND DELICIOUS</h1>
+    </p>
+  </section>
+
+
+
+  <!--  Pofile -->
+  <section id="profile" class="h1-judul">
+    <h1><span style="background-color: black;">"Menu Burger"</span></h1>
+    <ul class="menu">
+      <li class=" li-menu">
+        <h2 style="background-color: black;">Original Burger Rp.10.000</h2>
+      </li>
+      <li class="h2-menu">
+        <h2 style="background-color: white;">Cheese Burger Rp.15.000</h2>
+      </li>
+      <li class="li-menu">
+        <h2 style="background-color: black;">Egg Burger Rp.15.000</h2>
+      </li>
+      <li class="h2-menu">
+        <h2 style="background-color: white;">Dauble Beef Buger Rp.18.000</h2>
+      </li>
+      <li class="li-menu">
+        <h2 style="background-color: black;">Cheese Egg Burger Rp.18.000
+      </li>
+      </h2>
+    </ul>
+  </section>
+
+  <section>
+    <h1 class="h1-galery"><span style="background-color: black;">"Burger Berbagi"</span></h1>
+    <article class="facility-list">
+      <div class="column">
+        <img src="assets/img/berbagi1.jpg" alt="Berbagi" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="assets/img/berbagi2.jpg" alt="Berbagi" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="assets/img/berbagi3.jpg" alt="Berbagi" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="assets/img/kemasan burger.jpg" alt="Berbagi" style="width:100%">
+      </div>
+    </article>
+  </section>
+
+  <!-- massage us -->
+  <section id="massage_us">
+    <div class="container-form">
+      <div class="icons">
+        <a href="https://www.instagram.com/burgermasdav?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>`
+      <h2 style="margin:20px; padding:15px;">Form Pendaftaran</h2>
+
+      <form id="registrationForm">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Nama</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="sender-nama" placeholder="Masukan Nama">
+            <p id="vnama"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Tanggal Lahir</label>
+          </div>
+          <div class="col-75">
+            <input type="date" id="sender-birth-date">
+            <p id="vlahir"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Pesan</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="sender-pesan">
+            <p id="vpesan"></p>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        <p>Nama:
+        <h3 id="hnama"></h3>
+        </p>
+        <p>Tanggal Lahir:
+        <h3 id="htgl_lahir"></h3>
+        </p>
+        <p>Pesan:
+        <h3 id="hpesan"></h3>
+        </p>
+      </form>
+    </div>
+    </article>
+    <p style="text-align: center;">copyright ©desfaqn</p>
+
+  </section>
+
+  <script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>
